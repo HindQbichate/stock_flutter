@@ -46,12 +46,10 @@ app.*.map.json
 # Firebase
 google-services.json
 GoogleService-Info.plist
-firebase_options.dart
 
 # Generated files
 *.g.dart
 *.freezed.dart
-lib/firebase_options.dart
 
 # Environment files
 .env
@@ -60,3 +58,5 @@ lib/firebase_options.dart
 
 # Coverage
 coverage/
+
+# Keep templates in git (real keys are in *_production.json)

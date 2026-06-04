@@ -1,0 +1,24 @@
+{
+  "_comment": "TEMPLATE — Remplacer par votre vrai google-services.json depuis Firebase Console",
+  "_instructions": "Téléchargez ce fichier depuis : Firebase Console > Votre projet > Paramètres > Appli Android",
+  "project_info": {
+    "project_number": "XXXXXXXXXX",
+    "project_id": "VOTRE_PROJECT_ID",
+    "storage_bucket": "VOTRE_PROJECT_ID.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:XXXXXXXXXX:android:XXXXXXXXXXXXXXXXXXXX",
+        "android_info": {
+          "package_name": "com.votrenom.stock_flutter"
+        }
+      },
+      "api_key": [{"current_key": "VOTRE_API_KEY"}],
+      "services": {
+        "appinvite_service": {"other_platform_oauth_client": []}
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
